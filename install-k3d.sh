@@ -1,6 +1,3 @@
-# My K3D setup scripts
-
-```bash
 # K8s doesn't like Swapp
 swapoff -a
 apt install apt-transport-https curl wget -y
@@ -24,8 +21,3 @@ cat /dev/null > ~/.bash_history && history -c
 dd if=/dev/zero of=/EMPTY bs=1M || echo "dd exit code $? is suppressed"
 rm /EMPTY
 sync
-```
-
-```bash
-k3d cluster create --config ./k3d.yml
-```
