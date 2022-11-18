@@ -26,5 +26,5 @@ sync
 ```
 
 ```bash
-k3d cluster create -f ./k3d.yml
+k3d cluster create --config ./k3d.yml
 ```
